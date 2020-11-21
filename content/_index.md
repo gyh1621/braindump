@@ -1,6 +1,6 @@
 +++
 title = "Index"
-author = ["Jethro Kuan"]
+author = ["gyh"]
 lastmod = 2020-05-29T21:44:03+08:00
 type = "index"
 draft = false

@@ -3,8 +3,28 @@
 
 import glob
 from pathlib import Path
+import os
+import re
 
-files = glob.glob("org/*.org")
+
+ignore_file_patterns = [
+    '^\d{4}-\d{2}-\d{2}\.org$',
+    '^inbox\.org$',
+    '^daily_.*?\.org$',
+    '^mit_3\.org$'
+]
+allow_file_pattern = '^.*\.org$'
+
+files = []
+for root, dirnames, filenames in os.walk('org'):
+    for filename in filenames:
+        if any(re.match(pattern, filename) for pattern in ignore_file_patterns):
+            print('Ignore', filename)
+            continue
+        if re.match(allow_file_pattern, filename):
+            files.append(os.path.join(root, filename))
+#print('\n'.join(files))
+#print(len(files))
 
 with open('build.ninja', 'w') as ninja_file:
     ninja_file.write("""

@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d6b49afd-cd07-4714-87d1-bc8e8239068f/deploy-status)](https://app.netlify.com/sites/braindump-jethrokuan/deploys)
 
-# Jethro's Braindump
+# Braindump
 
 This braindump is generated via [ox-hugo][ox-hugo] and uses the
 [cortex][cortex] theme.
@@ -18,10 +18,10 @@ running `ox-hugo`, parallelizing the job of exporting the Org files.
 To convert all Org files into Markdown, run:
 
 ```bash
-./build.py
+python3 ./build.py
 ```
 
-`build.py` is simple enough to inspect. Once the Markdown files are generated,
+`build.py` is simple enough to inspect, where ignore file patterns can be assigned. Once the Markdown files are generated,
 we can use Hugo to generate the website.
 
 Install [hugo][hugo]. E.g., on a Mac with Homebrew:
