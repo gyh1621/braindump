@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d6b49afd-cd07-4714-87d1-bc8e8239068f/deploy-status)](https://app.netlify.com/sites/braindump-jethrokuan/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4eff5c45-cb36-425b-b920-80e39004fb36/deploy-status)](https://app.netlify.com/sites/gyh-braindump/deploys)
 
 # Braindump
 
