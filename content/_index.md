@@ -9,11 +9,13 @@ draft = false
 # Hi! {#hi}
 
 You've chanced upon my braindump.
-This website contains my notes accumulated over some years. They're in a
-really messy transition state: most of them are literature notes, and there are
-close to no conceptual notes, which I intend to start taking soon.
+This website contains my notes accumulated over some time. They're in a
+really messy state: most of them are literature notes, and there are
+close to no conceptual notes.
 
-I also haven't made good entry-points to my brain yet, but you can start hopping
-around by going to the [full index](/posts/).
+- [Full Index](/posts/)
+- [Algorithm](/posts/20200916235844-algorithm/)
+- [SICP](/posts/20201121010947-sicp/)
+- [Programming Languages](/posts/20200615074110-programming_languages/)
 
 Have fun!

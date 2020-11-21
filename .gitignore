@@ -13,6 +13,5 @@ org/private/
 /build.ninja
 /org/daily/
 
-./org
-.orgids
-roam/
+org/
+org/.*
