@@ -35,3 +35,6 @@ footer = "Icon by Freepik. Built with ♥ with Org-mode and Hugo."
     noClasses = true
     style = "friendly"
     tabWidth = 4
+
+[outputs]
+  home = ["HTML", "JSON"]
