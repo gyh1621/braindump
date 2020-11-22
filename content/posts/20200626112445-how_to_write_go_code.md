@@ -12,7 +12,7 @@ tags
 : [Go]({{< relref "20200615074513-go" >}})
 
 source
-: [How To Write Go Code](//D08DF1DC-28F0-4E3C-B30B-2AAB6DFB3685)
+: [How To Write Go Code](x-devonthink-item://D08DF1DC-28F0-4E3C-B30B-2AAB6DFB3685)
 
 
 ## Code Organization {#code-organization}

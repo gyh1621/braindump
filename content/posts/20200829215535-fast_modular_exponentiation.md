@@ -12,7 +12,7 @@ tags
 : [Mod]({{< relref "20200829220845-mod" >}}), [Algorithm]({{< relref "20200916235844-algorithm" >}})
 
 source
-: [DEVONThink](//5C203F39-E8D5-4AC0-98BF-87372FFEDBDE)
+: [DEVONThink](x-devonthink-item://5C203F39-E8D5-4AC0-98BF-87372FFEDBDE)
 
 <!--listend-->
 

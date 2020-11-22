@@ -51,10 +51,10 @@ tags
 
 ### iMovie {#imovie}
 
--   [DEVONThink - app store的app preview视频怎么制作、上传？](//07255AC5-C38C-41C6-BDB5-10B689CB7E67)
+-   [DEVONThink - app store的app preview视频怎么制作、上传？](x-devonthink-item://07255AC5-C38C-41C6-BDB5-10B689CB7E67)
 -   [Apple - Creating App Previews with iMovie](https://developer.apple.com/support/imovie/)
 
 
 ### Guides {#guides}
 
--   [DEVONThink - App Store and Google Play Screenshot Guidelines](//863439EF-0E99-4429-809F-02E605855603)
+-   [DEVONThink - App Store and Google Play Screenshot Guidelines](x-devonthink-item://863439EF-0E99-4429-809F-02E605855603)
