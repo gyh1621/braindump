@@ -4,7 +4,9 @@ author = ["John Doe"]
 draft = false
 +++
 
-Time-stamp: <2020-11-21 01:03:52 gyh"timestamp-wrapper"><span class="timestamp">&lt;2020-08-20 Thu 00:08&gt;</span></span>
+last modified
+: 2020-08-20 00:08:22
+
 
 tags
 : [DFS]({{< relref "20200817231103-dfs" >}}), [Memoization]({{< relref "20200819235643-memoization" >}}), [Topological Ordering]({{< relref "20200818230956-topological_ordering" >}})

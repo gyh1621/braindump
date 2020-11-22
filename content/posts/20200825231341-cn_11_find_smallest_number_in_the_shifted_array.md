@@ -4,7 +4,9 @@ author = ["John Doe"]
 draft = false
 +++
 
-Time-stamp: <2020-11-21 01:04:44 gyh"timestamp-wrapper"><span class="timestamp">&lt;2020-08-25 Tue 23:14&gt;</span></span>
+last modified
+: 2020-08-25 23:14:41
+
 
 tags
 : [BinarySearch]({{< relref "20200819231114-binarysearch" >}})

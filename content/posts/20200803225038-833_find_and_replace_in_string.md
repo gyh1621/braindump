@@ -4,7 +4,9 @@ author = ["John Doe"]
 draft = false
 +++
 
-Time-stamp: <2020-11-21 01:03:43 gyh"timestamp-wrapper"><span class="timestamp">&lt;2020-08-03 Mon 22:54&gt;</span></span>
+last modified
+: 2020-08-03 22:54:34
+
 
 tags
 : [subarray]({{< relref "20200716205913-subarray" >}})

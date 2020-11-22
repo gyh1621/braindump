@@ -4,7 +4,9 @@ author = ["John Doe"]
 draft = false
 +++
 
-Time-stamp: <2020-11-21 01:04:10 gyh"timestamp-wrapper"><span class="timestamp">&lt;2020-08-29 Sat 14:41&gt;</span></span>
+last modified
+: 2020-08-29 14:41:44
+
 
 tags
 : [Stack]({{< relref "20200825212600-stack" >}}), [Queue]({{< relref "20200825212611-queue" >}})

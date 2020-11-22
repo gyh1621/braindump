@@ -22,7 +22,20 @@ for root, dirnames, filenames in os.walk('org'):
             print('Ignore', filename)
             continue
         if re.match(allow_file_pattern, filename):
-            files.append(os.path.join(root, filename))
+            filepath = os.path.join(root, filename)
+            # replace time stamp
+            stinfo = os.stat(filepath)
+            with open(filepath, 'r') as f:
+                content = f.read()
+            with open(filepath, 'w') as f:
+                content = re.sub(
+                    'Time-stamp:\s<([-\d: ]*) .*>',
+                    r'- last modified :: \1',
+                    content
+                )
+                f.write(content)
+            os.utime(filepath, (stinfo.st_atime, stinfo.st_mtime))
+            files.append(filepath)
 #print('\n'.join(files))
 #print(len(files))
 

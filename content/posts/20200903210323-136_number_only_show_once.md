@@ -4,7 +4,9 @@ author = ["John Doe"]
 draft = false
 +++
 
-Time-stamp: <2020-11-21 01:04:27 gyh"timestamp-wrapper"><span class="timestamp">&lt;2020-09-03 Thu 21:08&gt;</span></span>
+last modified
+: 2020-09-03 21:08:08
+
 
 tags
 : [trick]({{< relref "20200722211911-trick" >}}), [BinaryOperation]({{< relref "20200830220657-binaryoperation" >}})

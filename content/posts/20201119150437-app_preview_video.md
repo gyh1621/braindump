@@ -4,7 +4,9 @@ author = ["John Doe"]
 draft = false
 +++
 
-Time-stamp: <2020-11-21 00:59:12 gyh"timestamp-wrapper"><span class="timestamp">&lt;2020-11-19 Thu 16:26&gt;</span></span>
+last modified
+: 2020-11-19 16:26:11
+
 
 tags
 : [Video]({{< relref "20201119150505-video" >}})

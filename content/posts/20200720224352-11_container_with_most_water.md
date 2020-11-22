@@ -4,7 +4,9 @@ author = ["John Doe"]
 draft = false
 +++
 
-Time-stamp: <2020-11-21 01:04:02 gyh"timestamp-wrapper"><span class="timestamp">&lt;2020-07-20 Mon 22:45&gt;</span></span>
+last modified
+: 2020-07-20 22:45:26
+
 
 tags
 : [two pointers]({{< relref "20200720224430-two_pointers" >}})

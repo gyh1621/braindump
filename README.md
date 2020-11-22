@@ -21,8 +21,18 @@ To convert all Org files into Markdown, run:
 python3 ./build.py
 ```
 
-`build.py` is simple enough to inspect, where ignore file patterns can be assigned. Once the Markdown files are generated,
-we can use Hugo to generate the website.
+`build.py` will convert all Org files in the same level `org` dir into Markdown.
+During this process, file content will change (remain same file modification time, for ninja cache),
+so it's better to just copy Org dir here:
+```
+# steps of build.py
+1. ignore some files
+2. convert timestamp content in filtered files to a tag (e.g. "Time-stamp <2020-01-01 01:00:00 user>" -> - last modified :: 2020-01-01 01:00:00)
+3. write file list into build.ninja
+4. call ninja
+```
+
+Once the Markdown files are generated, we can use Hugo to generate the website.
 
 Install [hugo][hugo]. E.g., on a Mac with Homebrew:
 

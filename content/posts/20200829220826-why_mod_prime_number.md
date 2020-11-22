@@ -4,7 +4,9 @@ author = ["John Doe"]
 draft = false
 +++
 
-Time-stamp: <2020-11-21 01:03:14 gyh"timestamp-wrapper"><span class="timestamp">&lt;2020-08-29 Sat 22:19&gt;</span></span>
+last modified
+: 2020-08-29 22:19:17
+
 
 tags
 : [Mod]({{< relref "20200829220845-mod" >}})

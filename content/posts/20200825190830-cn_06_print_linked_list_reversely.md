@@ -4,7 +4,9 @@ author = ["John Doe"]
 draft = false
 +++
 
-Time-stamp: <2020-11-21 01:04:10 gyh"timestamp-wrapper"><span class="timestamp">&lt;2020-08-25 Tue 19:18&gt;</span></span>
+last modified
+: 2020-08-25 19:18:23
+
 
 tags
 : [Recursion]({{< relref "20200813223609-recursive" >}})

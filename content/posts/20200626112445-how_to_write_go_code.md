@@ -4,7 +4,9 @@ author = ["John Doe"]
 draft = false
 +++
 
-Time-stamp: <2020-11-21 01:02:50 gyh"timestamp-wrapper"><span class="timestamp">&lt;2020-06-26 Fri 18:24&gt;</span></span>
+last modified
+: 2020-06-26 18:24:11
+
 
 tags
 : [Go]({{< relref "20200615074513-go" >}})

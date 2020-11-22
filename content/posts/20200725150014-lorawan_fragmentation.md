@@ -4,7 +4,8 @@ author = ["John Doe"]
 draft = false
 +++
 
-Time-stamp: <2020-11-21 01:05:25 gyh"timestamp-wrapper"><span class="timestamp">&lt;2020-07-26 Sun 13:31&gt;</span></span>
+last modified
+: 2020-07-26 13:31:47
 
 
 ## Intro {#intro}
