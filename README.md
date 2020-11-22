@@ -2,18 +2,32 @@
 
 # Braindump
 
-This braindump is generated via [ox-hugo][ox-hugo] and uses the
-[cortex][cortex] theme.
+Host org notes online.
 
-The org files used to generate the markdown files are also hosted here
-for posterity. They can be found in [the org folder][org].
+## Requirements
 
-## Installation instructions
+- Emacs
+- [Ninja](https://ninja-build.org/ "Ninja")
+- [ox-hugo][ox-hugo] (waitting for it to be merged)
+- [cortex][cortex] (modified from [original one][cortex-origin])
 
-I use the [Ninja](https://ninja-build.org/ "Ninja") build tool to convert my Org
-files into Markdown locally. This is so that only changed Org files get
-reprocessed into Markdown files. Ninja spawns many Emacs instances in batch mode
+Ninja spawns many Emacs instances in batch mode
 running `ox-hugo`, parallelizing the job of exporting the Org files.
+
+## Convert Org to Markdown
+
+`build.py` will convert all Org files in the same level `org` dir into Markdown.
+During this process, file content will change (remain same file modification time, for ninja cache),
+so it's better to just copy Org dir here.
+
+```
+# steps of build.py
+1. find org files
+2. ignore excluded files
+3. convert timestamp content in files to a tag (e.g. "Time-stamp <2020-01-01 01:00:00 user>" -> "- last modified :: 2020-01-01 01:00:00")
+4. write file list into build.ninja
+4. call ninja
+```
 
 To convert all Org files into Markdown, run:
 
@@ -21,16 +35,12 @@ To convert all Org files into Markdown, run:
 python3 ./build.py
 ```
 
-`build.py` will convert all Org files in the same level `org` dir into Markdown.
-During this process, file content will change (remain same file modification time, for ninja cache),
-so it's better to just copy Org dir here:
-```
-# steps of build.py
-1. ignore some files
-2. convert timestamp content in filtered files to a tag (e.g. "Time-stamp <2020-01-01 01:00:00 user>" -> - last modified :: 2020-01-01 01:00:00)
-3. write file list into build.ninja
-4. call ninja
-```
+### Exclude / Include List
+Create files `excludelist` or `includelist`
+and put patterns into them, one per line.
+`build.py` will use relative file paths to match the patterns (e.g. org/test.org).
+
+## Hugo Part
 
 Once the Markdown files are generated, we can use Hugo to generate the website.
 
@@ -52,6 +62,7 @@ Or run the following to get an immediately browsable website on localhost:
     $ hugo serve
 
 [hugo]: https://gohugo.io/
-[ox-hugo]: https://github.com/kaushalmodi/ox-hugo
-[cortex]: https://github.com/jethrokuan/cortex
+[ox-hugo]: https://github.com/jethrokuan/ox-hugo/tree/feat/org-hugo-base-dir
+[cortex]: https://github.com/gyh1621/cortex
+[cortex-origin]: https://github.com/jethrokuan/cortex
 [org]: https://github.com/jethrokuan/braindump/tree/master/org

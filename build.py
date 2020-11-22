@@ -1,41 +1,45 @@
-#! /usr/bin/env nix-shell
-#! nix-shell -i python3 -p python3 ninja
+# coding: utf-8
 
 import glob
 from pathlib import Path
 import os
 import re
 
+EXCLUDELIST = 'excludelist'
+INCLUDELIST = 'includelist'
 
-ignore_file_patterns = [
-    '^\d{4}-\d{2}-\d{2}\.org$',
-    '^inbox\.org$',
-    '^daily_.*?\.org$',
-    '^mit_3\.org$'
-]
-allow_file_pattern = '^.*\.org$'
+# Load exclude / include lists
+exclude_patterns = []
+include_patterns = ['^.*\.org$']
+if os.path.exists(EXCLUDELIST):
+    with open(EXCLUDELIST, 'r') as f:
+        exclude_patterns += f.read().split()
+if os.path.exists(INCLUDELIST):
+    with open(INCLUDELIST, 'r') as f:
+        include_patterns += f.read().split()
 
 files = []
 for root, dirnames, filenames in os.walk('org'):
     for filename in filenames:
-        if any(re.match(pattern, filename) for pattern in ignore_file_patterns):
+        filepath = os.path.join(root, filename)
+        if not any(re.search(pattern, filepath) for pattern in include_patterns):
+            continue
+        if any(re.search(pattern, filepath) for pattern in exclude_patterns):
             print('Ignore', filename)
             continue
-        if re.match(allow_file_pattern, filename):
-            filepath = os.path.join(root, filename)
-            # replace time stamp
-            stinfo = os.stat(filepath)
-            with open(filepath, 'r') as f:
-                content = f.read()
-            with open(filepath, 'w') as f:
-                content = re.sub(
-                    'Time-stamp:\s<([-\d: ]*) .*>',
-                    r'- last modified :: \1',
-                    content
-                )
-                f.write(content)
-            os.utime(filepath, (stinfo.st_atime, stinfo.st_mtime))
-            files.append(filepath)
+        # replace time stamp
+        stinfo = os.stat(filepath)
+        with open(filepath, 'r') as f:
+            content = f.read()
+        with open(filepath, 'w') as f:
+            content = re.sub(
+                'Time-stamp:\s<([-\d: ]*) .*>',
+                r'- last modified :: \1',
+                content
+            )
+            f.write(content)
+        os.utime(filepath, (stinfo.st_atime, stinfo.st_mtime))
+        files.append(filepath)
 #print('\n'.join(files))
 #print(len(files))
 
