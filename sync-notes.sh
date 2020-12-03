@@ -16,10 +16,11 @@ git status
 
 NOWDATE="$(date -u +'%a %d %b %Y %T %p') $(date +'%z')"
 while true; do
-    read -p "Choose an action? [c(commit&upload), v(view diff), q(quit)]: " cvq
-    case $cvq in
+    read -p "Choose an action? [c(commit&upload), v(view diff), h(hugo server), q(quit)]: " cvhq
+    case $cvhq in
         [c]* ) git commit -am "$NOWDATE" && git push; break;;
         [v]* ) git diff;;
+        [h]* ) hugo server;;
         [q]* ) exit;;
         * ) echo "Invalid Choice.";;
     esac
