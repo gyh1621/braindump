@@ -4,10 +4,6 @@ author = ["John Doe"]
 draft = false
 +++
 
-last modified
-: 2020-09-03 21:08:08
-
-
 tags
 : [trick]({{< relref "20200722211911-trick" >}}), [BinaryOperation]({{< relref "20200830220657-binaryoperation" >}})
 

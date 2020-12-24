@@ -4,10 +4,6 @@ author = ["John Doe"]
 draft = false
 +++
 
-last modified
-: 2020-09-17 00:12:01
-
-
 tags
 : [BinarySearchTree]({{< relref "20200824221146-binarysearchtree" >}})
 

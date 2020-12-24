@@ -4,10 +4,6 @@ author = ["John Doe"]
 draft = false
 +++
 
-last modified
-: 2020-10-24 09:18:14
-
-
 tags
 : [Mod]({{< relref "20200829220845-mod" >}}), [Algorithm]({{< relref "20200916235844-algorithm" >}})
 

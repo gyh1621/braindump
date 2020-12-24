@@ -4,10 +4,6 @@ author = ["John Doe"]
 draft = false
 +++
 
-last modified
-: 2020-08-02 22:34:22
-
-
 tags
 : [sliding window]({{< relref "20200716205834-sliding_window" >}}), [subarray]({{< relref "20200716205913-subarray" >}})
 

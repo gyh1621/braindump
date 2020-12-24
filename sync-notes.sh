@@ -3,15 +3,11 @@
 set -e
 
 BRAINDUMPDIR=$HOME/braindump
-ORGSRCDIR=$HOME/org
 NOWDATE="$(date -u +'%a %d %b %Y %T %p') $(date +'%z')"
 
 cd $BRAINDUMPDIR
 
 build() {
-    rm -rf $BRAINDUMPDIR/org
-    rsync -a --progress $ORGSRCDIR $BRAINDUMPDIR --exclude .git
-
     python3 build.py
 
     hugo
@@ -23,7 +19,7 @@ liveBuild() {
     while true; do
         build > /dev/null &
         wait $!
-        sleep 10
+        sleep 60
     done
 }
 

@@ -4,10 +4,6 @@ author = ["John Doe"]
 draft = false
 +++
 
-last modified
-: 2020-08-30 23:08:35
-
-
 tags
 : [LinkedList]({{< relref "20200813223551-linkedlist" >}}), [Recursion]({{< relref "20200813223609-recursive" >}})
 

@@ -4,10 +4,6 @@ author = ["John Doe"]
 draft = false
 +++
 
-last modified
-: 2020-08-03 22:54:34
-
-
 tags
 : [subarray]({{< relref "20200716205913-subarray" >}})
 

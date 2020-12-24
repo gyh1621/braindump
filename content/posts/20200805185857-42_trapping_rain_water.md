@@ -4,10 +4,6 @@ author = ["John Doe"]
 draft = false
 +++
 
-last modified
-: 2020-08-05 19:46:51
-
-
 tags
 : [trick]({{< relref "20200722211911-trick" >}}), [two pointers]({{< relref "20200720224430-two_pointers" >}})
 

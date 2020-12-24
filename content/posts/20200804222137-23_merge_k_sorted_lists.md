@@ -4,10 +4,6 @@ author = ["John Doe"]
 draft = false
 +++
 
-last modified
-: 2020-08-04 22:30:20
-
-
 tags
 : [MergeSort]({{< relref "20200804222157-mergesort" >}}), [PriorityQueue]({{< relref "20200804222308-priorityqueue" >}})
 

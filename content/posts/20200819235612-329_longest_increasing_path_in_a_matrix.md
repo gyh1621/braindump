@@ -4,10 +4,6 @@ author = ["John Doe"]
 draft = false
 +++
 
-last modified
-: 2020-08-20 00:08:22
-
-
 tags
 : [DFS]({{< relref "20200817231103-dfs" >}}), [Memoization]({{< relref "20200819235643-memoization" >}}), [Topological Ordering]({{< relref "20200818230956-topological_ordering" >}})
 

@@ -4,10 +4,6 @@ author = ["John Doe"]
 draft = false
 +++
 
-last modified
-: 2020-08-29 14:41:44
-
-
 tags
 : [Stack]({{< relref "20200825212600-stack" >}}), [Queue]({{< relref "20200825212611-queue" >}})
 

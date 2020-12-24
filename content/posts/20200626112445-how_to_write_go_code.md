@@ -4,10 +4,6 @@ author = ["John Doe"]
 draft = false
 +++
 
-last modified
-: 2020-06-26 18:24:11
-
-
 tags
 : [Go]({{< relref "20200615074513-go" >}})
 

@@ -4,10 +4,6 @@ author = ["John Doe"]
 draft = false
 +++
 
-last modified
-: 2020-08-13 01:17:45
-
-
 tags
 : [PriorityQueue]({{< relref "20200804222308-priorityqueue" >}}), [QuickSelect]({{< relref "20200805205651-quickselect" >}})
 

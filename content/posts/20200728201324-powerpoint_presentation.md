@@ -4,10 +4,6 @@ author = ["John Doe"]
 draft = false
 +++
 
-last modified
-: 2020-10-01 15:33:39
-
-
 tags
 : [Career]({{< relref "20201001153242-career" >}})
 

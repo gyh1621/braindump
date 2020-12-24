@@ -4,10 +4,6 @@ author = ["John Doe"]
 draft = false
 +++
 
-last modified
-: 2020-08-11 22:32:18
-
-
 tags
 : [Greedy]({{< relref "20200811221702-greedy" >}}), [PriorityQueue]({{< relref "20200804222308-priorityqueue" >}})
 

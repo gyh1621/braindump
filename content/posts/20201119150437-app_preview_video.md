@@ -4,10 +4,6 @@ author = ["John Doe"]
 draft = false
 +++
 
-last modified
-: 2020-11-19 16:26:11
-
-
 tags
 : [Video]({{< relref "20201119150505-video" >}})
 

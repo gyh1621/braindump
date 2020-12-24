@@ -2,6 +2,7 @@
   (with-current-buffer (find-file-noselect file)
     (projectile-mode -1)
     (dtrt-indent-mode -1)
+    (setq org-id-extra-files (org-roam--list-all-files))
     (setq org-hugo-base-dir "~/braindump")
     (if (>
           (string-to-number
