@@ -24,8 +24,7 @@ so it's better to just copy Org dir here.
 # steps of build.py
 1. find org files
 2. ignore excluded files
-3. convert timestamp content in files to a tag (e.g. "Time-stamp <2020-01-01 01:00:00 user>" -> "- last modified :: 2020-01-01 01:00:00")
-4. write file list into build.ninja
+3. write file list into build.ninja
 4. call ninja
 ```
 
