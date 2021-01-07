@@ -17,8 +17,7 @@ running `ox-hugo`, parallelizing the job of exporting the Org files.
 ## Convert Org to Markdown
 
 `build.py` will convert all Org files in the same level `org` dir into Markdown.
-During this process, file content will change (remain same file modification time, for ninja cache),
-so it's better to just copy Org dir here.
+Change `org` dir path in `build.py`.
 
 ```
 # steps of build.py

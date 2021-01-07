@@ -33,7 +33,7 @@ while true; do
     read -p "Choose an action? [b(build), c(commit&upload), v(view diff), h(hugo server), r(live build with hugo server), q(quit)]: " bcvhrq
     case $bcvhrq in
         [b]* ) build;;
-        [c]* ) git commit -am "$NOWDATE" && git push;;
+        [c]* ) git add . && git commit -am "$NOWDATE" && git push;;
         [v]* ) git diff;;
         [h]* ) hugo server;;
         [r]* ) liveBuild;;

@@ -1,5 +1,5 @@
 +++
-title = "Closure"
+title = "Compile Time Error"
 author = ["John Doe"]
 draft = false
 +++
