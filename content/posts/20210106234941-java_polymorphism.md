@@ -1,14 +1,17 @@
 +++
 title = "Java Polymorphism"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 
 tags
-: [On Java 8]({{< relref "20210106162054-on_java_8" >}}), [Java]({{< relref "20210106174605-java" >}}), [Polymorphism]({{< relref "20210106234832-polymorphism" >}})
+: [Java]({{< relref "20210106174605-java" >}}), [Polymorphism]({{< relref "20210106234832-polymorphism" >}})
 
-additional source
+source
 : [stackify-polymorphism-in-java](x-devonthink-item://79F1947B-AE80-4018-86F0-BDA46155E3C2)
+
+source
+: [DT-On Java 8](x-devonthink-item://199347D4-709D-41DF-84EA-B02E4E11ACEE)
 
 
 ## Static Polymorphism {#static-polymorphism}
