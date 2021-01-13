@@ -1,6 +1,6 @@
 +++
 title = "CN-06.Print Linked List Reversely"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

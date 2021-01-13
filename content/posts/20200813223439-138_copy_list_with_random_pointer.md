@@ -1,6 +1,6 @@
 +++
 title = "138. Copy List with Random Pointer"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

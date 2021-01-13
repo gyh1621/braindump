@@ -1,6 +1,6 @@
 +++
 title = "3. Longest Substring Without Repeating Characters"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

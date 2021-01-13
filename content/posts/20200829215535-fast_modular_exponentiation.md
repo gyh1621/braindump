@@ -1,6 +1,6 @@
 +++
 title = "Fast Modular Exponentiation"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

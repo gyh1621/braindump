@@ -1,6 +1,6 @@
 +++
 title = "Powerpoint Presentation"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

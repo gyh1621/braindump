@@ -1,5 +1,5 @@
 +++
-title = "Video"
+title = "critical thinking"
 author = ["Yuhang Guo"]
 draft = false
 +++

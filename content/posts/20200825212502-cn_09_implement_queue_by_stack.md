@@ -1,6 +1,6 @@
 +++
 title = "CN-09. Implement queue by stack"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

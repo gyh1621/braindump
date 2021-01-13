@@ -1,6 +1,6 @@
 +++
 title = "CN-350. Intersect of two arrays"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

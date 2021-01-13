@@ -1,6 +1,6 @@
 +++
 title = "973. K Closest Points to Origin"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

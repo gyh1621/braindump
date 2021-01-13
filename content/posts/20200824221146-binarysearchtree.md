@@ -1,6 +1,6 @@
 +++
 title = "BinarySearchTree"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

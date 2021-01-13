@@ -1,6 +1,6 @@
 +++
 title = "857. Minimum Cost to Hire K Workers"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

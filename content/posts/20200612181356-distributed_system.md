@@ -1,5 +1,5 @@
 +++
 title = "Distributed-System"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++

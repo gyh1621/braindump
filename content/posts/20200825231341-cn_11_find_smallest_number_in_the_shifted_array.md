@@ -1,6 +1,6 @@
 +++
 title = "CN-11. Find smallest number in the shifted array"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

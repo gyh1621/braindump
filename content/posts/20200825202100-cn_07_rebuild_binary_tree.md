@@ -1,6 +1,6 @@
 +++
 title = "CN-07. Rebuild binary tree"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

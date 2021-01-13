@@ -1,6 +1,6 @@
 +++
 title = "136. Number only show once"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

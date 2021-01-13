@@ -1,6 +1,6 @@
 +++
 title = "42. Trapping Rain Water"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

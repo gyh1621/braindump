@@ -1,6 +1,6 @@
 +++
 title = "BinaryOperation"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

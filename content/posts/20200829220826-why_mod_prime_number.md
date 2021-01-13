@@ -1,6 +1,6 @@
 +++
 title = "Why Mod Prime Number"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

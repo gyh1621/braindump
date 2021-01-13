@@ -1,6 +1,6 @@
 +++
 title = "CN-18. Delete LinkedList Node"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 
