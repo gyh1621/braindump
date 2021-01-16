@@ -1,5 +1,5 @@
 +++
 title = "Static-Type-Checking"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++

@@ -1,6 +1,6 @@
 +++
 title = "CN-03.Duplicate number in the array"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

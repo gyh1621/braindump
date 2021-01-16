@@ -1,6 +1,6 @@
 +++
 title = "849. Maximize Distance to Closest Person"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

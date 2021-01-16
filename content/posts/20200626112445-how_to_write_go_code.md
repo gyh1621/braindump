@@ -1,6 +1,6 @@
 +++
 title = "How To Write Go Code"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

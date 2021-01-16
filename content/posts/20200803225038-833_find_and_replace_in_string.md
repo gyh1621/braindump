@@ -1,6 +1,6 @@
 +++
 title = "833. Find And Replace in String"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

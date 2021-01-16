@@ -1,6 +1,6 @@
 +++
 title = "76. Minimum Window Substring"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

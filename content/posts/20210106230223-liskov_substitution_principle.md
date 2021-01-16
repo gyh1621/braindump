@@ -1,5 +1,5 @@
 +++
 title = "Liskov Substitution Principle"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++

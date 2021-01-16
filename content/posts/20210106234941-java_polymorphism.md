@@ -18,12 +18,7 @@ source
 
 Or compile time.
 
-Multiple methods with the same name in the same class - ****Overloading****
-Meet one of the requirments below:
-
--   Different number of parameters
--   Different types of parameters
--   Different order of parameters
+[Java Method Overloading]({{<relref "20210114070305-java_overloading.md" >}})
 
 
 ## Dynamic Polymorphism {#dynamic-polymorphism}

@@ -1,6 +1,6 @@
 +++
 title = "23. Merge k Sorted Lists"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

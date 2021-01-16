@@ -1,6 +1,6 @@
 +++
 title = "App Preview Video"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

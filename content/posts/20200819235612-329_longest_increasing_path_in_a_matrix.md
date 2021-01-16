@@ -1,6 +1,6 @@
 +++
 title = "329. Longest Increasing Path in a Matrix"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

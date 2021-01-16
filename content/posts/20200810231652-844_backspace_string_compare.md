@@ -1,6 +1,6 @@
 +++
 title = "844. Backspace String Compare"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

@@ -1,6 +1,6 @@
 +++
 title = "215. Kth Largest Element in an Array"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

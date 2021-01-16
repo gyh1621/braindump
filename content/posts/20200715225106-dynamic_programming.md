@@ -1,6 +1,6 @@
 +++
 title = "dynamic programming"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

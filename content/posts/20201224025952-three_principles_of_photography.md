@@ -1,6 +1,6 @@
 +++
 title = "Three principles of photography"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 

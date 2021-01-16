@@ -29,6 +29,9 @@ source
 
 -   pool of memory, also lives in RAM
 -   technically slower than stack when allocating and releasing memory
+    -   overheads
+        -   find unused chunks with required space
+        -   bookkeeping mappings of chunks and addresses passed to caller
 
 
 ## Constant storage {#constant-storage}

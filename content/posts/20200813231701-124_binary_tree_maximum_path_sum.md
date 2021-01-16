@@ -1,6 +1,6 @@
 +++
 title = "124. Binary Tree Maximum Path Sum"
-author = ["John Doe"]
+author = ["Yuhang Guo"]
 draft = false
 +++
 
