@@ -28,7 +28,7 @@ source
 
 | position | ease | box | interval | due                  |
 |----------|------|-----|----------|----------------------|
-| front    | 2.5  | 0   | 0        | 2021-01-15T18:56:26Z |
+| front    | 2.50 | 1   | 0.01     | 2021-01-17T18:35:08Z |
 
 
 ### Reference Counting {#reference-counting}

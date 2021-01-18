@@ -14,6 +14,7 @@ really messy state: most of them are literature notes, and there are
 close to no conceptual notes.
 
 - [Full Index](/posts/)
+- [Java](/posts/20210106174605-java/)
 - [Algorithm](/posts/20200916235844-algorithm/)
 - [SICP](/posts/20201121010947-sicp/)
 - [Programming Languages](/posts/20200615074110-programming_languages/)
