@@ -18,7 +18,7 @@ source
 
 | position | ease | box | interval | due                  |
 |----------|------|-----|----------|----------------------|
-| front    | 2.50 | 2   | 1.00     | 2021-01-18T18:06:23Z |
+| front    | 2.50 | 3   | 6.00     | 2021-01-26T23:34:06Z |
 
 Multiple methods with the same name in the same class
 Meet one of the requirements below:

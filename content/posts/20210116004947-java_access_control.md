@@ -20,7 +20,7 @@ see whether the current scope meets the access requirement.
 
 | position | ease | box | interval | due                  |
 |----------|------|-----|----------|----------------------|
-| front    | 2.5  | 0   | 0        | 2021-01-18T09:07:14Z |
+| front    | 2.50 | 3   | 6.00     | 2021-01-28T20:29:09Z |
 
 Also called **package-private access**.
 
@@ -50,10 +50,11 @@ Anyone trying to access this kind of elements illegally gets [compile time error
 
 | position | ease | box | interval | due                  |
 |----------|------|-----|----------|----------------------|
-| front    | 2.5  | 0   | 0        | 2021-01-18T09:07:30Z |
+| front    | 2.50 | 3   | 6.00     | 2021-01-28T20:26:42Z |
 
 -   Like **private**, but inheriting classes (same package or not) may access **protected** members
 -   Also gives package access - other classes in the same package can access protected elements
+-   It's best to define fields private to always preserve right to change the underlying implementation
 
 <!--listend-->
 
@@ -92,7 +93,7 @@ public class Class2 extends Class1 {
 
 | position | ease | box | interval | due                  |
 |----------|------|-----|----------|----------------------|
-| front    | 2.5  | 0   | 0        | 2021-01-18T09:07:49Z |
+| front    | 2.50 | 1   | 0.01     | 2021-01-18T17:00:43Z |
 
 \#[Java Class]({{< relref "20210114095654-java_class" >}})
 

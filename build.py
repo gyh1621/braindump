@@ -8,7 +8,7 @@ import re
 EXCLUDELIST = "excludelist"
 INCLUDELIST = "includelist"
 
-ORGDIRPATH = "/Users/gyh/org"
+ORGDIRPATH = "/Users/gyh/Dropbox/org"
 
 # Load exclude / include lists
 exclude_patterns = []
@@ -31,8 +31,8 @@ for root, dirnames, filenames in os.walk(ORGDIRPATH):
             print("Ignore", filename)
             continue
         files.append(filepath)
-#print("\n".join(files))
-#print(len(files))
+# print("\n".join(files))
+# print(len(files))
 
 with open("build.ninja", "w") as ninja_file:
     ninja_file.write(
